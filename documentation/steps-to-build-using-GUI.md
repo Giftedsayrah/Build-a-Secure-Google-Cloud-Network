@@ -28,7 +28,7 @@ This document describes how I created the secure VPC network using the **Google 
 5. Network → choose your VPC and subnet
 6. External IP → **Set to “None”**
 7. Create the instance
-![Bastion VM](screenshots/bastion-vm.png)
+![Bastion VM](screenshots/bastion-vm.png.png)
 ---
 
 ## **3. Create the Juice-Shop VM**
