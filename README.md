@@ -11,8 +11,7 @@ The scenario focuses on securing Jeff’s site by ensuring that:
 
 ---
 
-## ** Architecture Overview**
-
+##  Architecture Overview
 The project deploys a custom VPC containing two virtual machines:
 
 ### **1. Bastion Host**
@@ -29,7 +28,7 @@ The project deploys a custom VPC containing two virtual machines:
 
 ---
 
-## ** Key Security Controls Implemented**
+##  Key Security Controls Implemented
 
 ### **1. Allow SSH to Bastion via IAP**
 
@@ -62,7 +61,7 @@ The project deploys a custom VPC containing two virtual machines:
 
 ---
 
-## ** Step-by-Step Implementation**
+##  Step-by-Step Implementation
 
 ### **1. Create a Custom VPC**
 
@@ -107,7 +106,7 @@ ssh <INTERNAL_IP_OF_JUICE_SHOP>
 
 ---
 
-## **📁 Repository Structure**
+## 📁 Repository Structure
 
 ```
 /
@@ -121,7 +120,7 @@ ssh <INTERNAL_IP_OF_JUICE_SHOP>
 ```
 
 
-## ** What This Project Demonstrates**
+##  What This Project Demonstrates
 
 * Secure VPC network design
 * Identity-Aware Proxy configuration
