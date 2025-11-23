@@ -103,10 +103,10 @@ ssh <INTERNAL_IP_OF_JUICE_SHOP>
 ```
 /
 ├── README.md
-├── diagrams/
-│   └── gcp-secure-network.png   (optional diagram)
+├── screenshots/
+│   └── <all project screenshots>
 └── documentation/
-    └── steps-to-build-using-GUI.md
+    └── steps-to-build-using-GUI.md   (detailed step-by-step instructions)
 
 ```
 
