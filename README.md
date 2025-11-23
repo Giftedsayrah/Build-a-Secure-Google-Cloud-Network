@@ -104,11 +104,10 @@ ssh <INTERNAL_IP_OF_JUICE_SHOP>
 /
 ├── README.md
 ├── diagrams/
-│   └── gcp-secure-network.png
-└── scripts/
-    ├── create-firewall.sh
-    ├── create-vms.sh
-    └── verify-access.md
+│   └── gcp-secure-network.png   (optional diagram)
+└── documentation/
+    └── steps-to-build-using-GUI.md
+
 ```
 
 
