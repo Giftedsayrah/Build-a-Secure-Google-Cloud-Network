@@ -1,4 +1,4 @@
-# **Build a Secure Google Cloud Network – Challenge Lab**
+# **Build a Secure Google Cloud Network **
 
 This project demonstrates how to design and implement a secure Virtual Private Cloud (VPC) network on Google Cloud by configuring firewall rules, VM tags, and Identity-Aware Proxy (IAP) to strictly control access to internal resources.
 
