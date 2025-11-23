@@ -1,8 +1,3 @@
-Here is the **clean, polished, portfolio-ready `README.md` content** for your GitHub project.
-You can copy and paste it directly into your repository.
-
----
-
 # **Build a Secure Google Cloud Network – Challenge Lab**
 
 This project demonstrates how to design and implement a secure Virtual Private Cloud (VPC) network on Google Cloud by configuring firewall rules, VM tags, and Identity-Aware Proxy (IAP) to strictly control access to internal resources.
