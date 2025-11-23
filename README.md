@@ -65,7 +65,7 @@ The project deploys a custom VPC containing two virtual machines:
 
 ### **1. Create a Custom VPC**
 
-* Created `private-network`
+* Created `acme`
 * Configured subnets manually
 * Disabled auto subnet creation
 
@@ -82,15 +82,7 @@ Added 3 key rules:
 * Allow Bastion → Juice-shop (SSH)
 * Allow World → Juice-shop (HTTP)
 
-### **4. Configure Bastion Host Access via IAP**
-
-Used:
-
-```bash
-gcloud compute ssh bastion --tunnel-through-iap
-```
-
-### **5. Connect to Juice-shop Through the Bastion**
+### **4. Connect to Juice-shop Through the Bastion**
 
 From Bastion:
 
@@ -98,7 +90,7 @@ From Bastion:
 ssh <INTERNAL_IP_OF_JUICE_SHOP>
 ```
 
-### **6. Validate Access**
+### **5. Validate Access**
 
 * Juice-shop reachable publicly on port 80
 * Bastion reachable only through IAP
