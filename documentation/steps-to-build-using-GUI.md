@@ -95,7 +95,3 @@ ssh <INTERNAL_IP_OF_JUICE_SHOP>
 * Juice-shop loads on port 80 from the internet
 * SSH to bastion only via IAP
 * SSH to juice-shop only through bastion
-
-
-
-Want me to generate one?
