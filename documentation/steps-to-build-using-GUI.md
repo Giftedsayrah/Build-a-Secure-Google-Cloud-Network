@@ -39,7 +39,7 @@ This document describes how I created the secure VPC network using the **Google 
 4. External IP → **Ephemeral**
 5. Allow HTTP traffic: **Checked**
 6. Create
-![Juice-shop VM](screenshots/juice-shop-vm.png)
+![Juice-shop VM](screenshots/juice-shop-vm.png.png)
 ---
 
 ## **4. Create Firewall Rule (SSH via IAP → Bastion)**
@@ -72,7 +72,7 @@ This document describes how I created the secure VPC network using the **Google 
 3. Source: `0.0.0.0/0`
 4. Protocols: **TCP 80**
 5. Create
-![Firewall Bastion to Juice](screenshots/firewall-bastion-to-juice.png)
+![Firewall Bastion to Juice](screenshots/firewall-bastion-to-juice.png.png)
 ---
 
 ## **7. Connect Using IAP**
@@ -81,7 +81,7 @@ To SSH into bastion:
 
 * Use the SSH button on the VM
 * It automatically uses **IAP tunneling** (because no public IP)
-![Internal SSH](screenshots/internal-ssh.png)
+![Internal SSH](screenshots/internal-ssh.png.png)
 From bastion:
 
 ```bash
